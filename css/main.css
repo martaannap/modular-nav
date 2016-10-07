@@ -32,6 +32,10 @@ a:hover {
   color: #fff;
 }
 
+header {
+  background-color: #e2e2e2;
+}
+
 body {
   margin: 0;
 }
