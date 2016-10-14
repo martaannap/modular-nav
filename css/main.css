@@ -20,6 +20,7 @@ html {
 a {
   text-decoration: none;
   color: #0074d9;
+  padding: .5em;
 }
 
 li {
@@ -30,6 +31,7 @@ li {
 a:hover {
   background-color: #0074d9;
   color: #fff;
+
 }
 
 header {
@@ -38,4 +40,17 @@ header {
 
 body {
   margin: 0;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+  }
+
 }
